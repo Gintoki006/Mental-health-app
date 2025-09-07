@@ -1,0 +1,25 @@
+# Database
+MONGODB_URI=mongodb://localhost:27017/mental-health-app
+
+# JWT
+JWT_SECRET=mental-health-app-super-secret-jwt-key-2024-development
+JWT_EXPIRE=7d
+
+# Server
+PORT=5000
+NODE_ENV=development
+
+# Twilio (for emergency SMS) - Optional
+TWILIO_ACCOUNT_SID=your-twilio-account-sid
+TWILIO_AUTH_TOKEN=your-twilio-auth-token
+TWILIO_PHONE_NUMBER=your-twilio-phone-number
+
+# AI Service
+AI_SERVICE_URL=http://localhost:5001
+
+# External APIs - Optional
+MOVIE_API_KEY=your-movie-api-key
+MUSIC_API_KEY=your-music-api-key
+
+# CORS
+CLIENT_URL=http://localhost:5173

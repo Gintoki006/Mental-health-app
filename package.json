@@ -1,0 +1,26 @@
+{
+  "name": "mental-health-wellness-app",
+  "version": "1.0.0",
+  "description": "A comprehensive mental health and wellness web application with AI chatbot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "ai-service": "cd ai-service && python app.py",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../ai-service && pip install -r requirements.txt"
+  },
+  "keywords": [
+    "mental-health",
+    "wellness",
+    "chatbot",
+    "ai",
+    "react",
+    "nodejs"
+  ],
+  "author": "Mental Health App Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
